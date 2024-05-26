@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricette Italiane - Consigli</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Ricette Italiane</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ricette.html">Ricette</a>
+            <a href="consigli.html">Consigli</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Consigli di Cucina</h2>
+            <ul>
+                <li>Utilizzare ingredienti freschi e di stagione per ottenere il massimo sapore.</li>
+                <li>Imparare le tecniche di base della cucina italiana, come la preparazione della pasta fresca e la cottura al dente.</li>
+                <li>Esplorare le varie regioni italiane e le loro specialità culinarie per ampliare il proprio repertorio di ricette.</li>
+                <li>Assicurarsi di avere gli strumenti di cucina essenziali, come un buon coltello da chef, una padella antiaderente e una pentola capiente per la pasta.</li>
+                <li>Assaggiare e aggiustare il condimento durante la preparazione per garantire un sapore equilibrato.</li>
+                <li>Sperimentare con diverse erbe e spezie per aggiungere profondità e complessità ai piatti.</li>
+                <li>Non avere paura di sbagliare: la cucina è un'arte e richiede pratica e pazienza per migliorare le proprie abilità.</li>
+                <li>Condividere le proprie creazioni culinarie con amici e familiari per godere della gioia della convivialità.</li>
+                <li>Ricordarsi di pulire man mano durante la preparazione per mantenere un ambiente di lavoro sicuro e ordinato.</li>
+            </ul>
+        </section>
+        
+        <section id="video-gallery">
+            <h2>Video Tutorial</h2>
+            <div class="video-container">
+                <button class="prev-video" onclick="prevVideo()">&#10094;</button>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_T6jkRvhlkk?si=ECJupPQCCL8fPtgQ" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5p-H1LpeEYQ?si=ctYkRl7pjcNWiKpm" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Hn8bw0MY0kc?si=HWMbRJdwa7TElean" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9YCaRsHE8g4?si=lSEhdGzDzrn2XX3h" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wxrH-WS59Us?si=jihce4fPtX-7a2CT" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q2IE4AssJMk?si=SnVi_-QZv4aU6LtR" frameborder="0" allowfullscreen></iframe>
+                <button class="next-video" onclick="nextVideo()">&#10095;</button>
+            </div>
+        </section>
+        
+        
+        <section id="image-gallery">
+            <h2>Galleria di Immagini</h2>
+            <div class="image-container">
+                <button class="prev" onclick="prevImage()">&#10094;</button>
+                <img src="/images/spaghetticarbonara.avif" alt="Spaghetti alla Carbonara">
+                <img src="/images/pizza.avif" alt="Pizza Margherita">
+                <img src="/images/risotto.avif" alt="Risotto ai Funghi Porcini">
+                <img src="/images/tiramisu.avif" alt="Tiramisù">
+                <img src="/images/lasagnebolognese.avif" alt="Lasagne alla Bolognese">
+                <img src="/images/bruschetta.avif" alt="Bruschette al pomodoro">
+
+                <button class="next" onclick="nextImage()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <button id="theme-toggle" class="theme-toggle"></button>
+    <footer>
+        <p>&copy; 2024 Ricette Italiane</p>
+    </footer>
+</body>
+</html>
